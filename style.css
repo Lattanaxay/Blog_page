@@ -31,8 +31,8 @@
 
 }
 
-/*------reaet---------*/
-*,*::before, *::after {
+/*------reset---------*/
+*, *::before, *::after {
     margin: 0;
     padding:0;
     box-sizing: border-box;
@@ -116,7 +116,7 @@ html {
 
 
 
-/* reuse stye */
+/*  RESUED STYLE  */
  .container{
     margin-inline: auto;
     margin: auto; /*fallback for margin-inline*/ 
@@ -140,7 +140,7 @@ header .flex-wrapper {display: none;}
 .logo-light,
 .logo-dark {display: none;}
 
-.light-theme .logo-light
+.light-theme .logo-light,
 .dark-theme .logo-dark {display: block;}
 
 header .btn-group {
@@ -171,8 +171,8 @@ header .btn-group {
 
 .theme-btn-mobile ion-icon {display: none;}
 
-.theme-btn-mobile.light.sun
-.theme-btn-mobile.dark.moon {display: block;}
+.theme-btn-mobile.light .sun,
+.theme-btn-mobile.dark .moon {display: block;}
 
 .mobile-nav{
     position: fixed;
@@ -211,3 +211,4 @@ header .btn-group {
     color: var(--foreground-secondary);
 }
 .mobile-nav .nav-link:hover{ color: var(--accent);}
+
